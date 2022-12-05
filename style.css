@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@600;800&family=Raleway:ital,wght@0,300;0,400;1,700&family=Roboto:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    }
+    
+    body {
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    }
+    
+    img {
+    display: block;
+    max-width: 100%;    
+    }
+    .center {
+        padding-left: calc(50% - 800px);
+        padding-right: calc(50% - 800px);        
+         }
+    .box  {
+        display: flex;
+        gap: 859px;
+        background: #222222;
+           }  
+    .logo {
+    display: flex;
+    padding-left: 231px;
+    padding-top: 18px;
+    padding-bottom: 19px;
+    gap: 41px;
+      
+    }
+    .options {
+      display: flex;
+      align-items: center;
+      gap: 33px;
+      
+    }
+    .brand {
+        display: flex; 
+        background: #F1E4E6;      
+    }
+    .brand_name {
+        padding-top: 290px;
+        padding-left: 91px;
+        padding-bottom: 381px;
+    }
+    .catalog {
+        margin-top: 65px;
+        margin-bottom: 96px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+        justify-content: center;
+    }
+    .accesories {
+        grid-column: 1/4;
+    }
+    .text {
+        text-align: center;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;        
+        color: #222222;
+        margin-bottom: 6px;
+    }
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+.content {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.button_browse_all {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+}
+
+    
+    
